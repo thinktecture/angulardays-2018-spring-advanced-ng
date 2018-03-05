@@ -1,27 +1,36 @@
-# NgdaysAdvanced
+# Advanced Angular: Praktische Real-World-Projekterfahrungen
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+[Angular Days 2018](https://angular-days.de/session/advanced-angular-praktische-real-world-projekterfahrungen/), 20. März 2018, 09:00–12:30 Uhr, Holiday Inn München-Unterhaching.
 
-## Development server
+[Christian Liebel](https://twitter.com/chris_liebel), Consultant, Thinktecture AG, Karlsruhe.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Due to the expected number of participants, we will not be able to have one-on-one mentoring. However, if you like, you can follow [these instructions](https://liebel.io/ng-ws).
 
-## Code scaffolding
+## Setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- [Node.js 8.9.4 LTS or higher](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+- Editor of your choice ([WebStorm](https://www.jetbrains.com/webstorm/), [Visual Studio Code](https://code.visualstudio.com/), …)
+- Laptop
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Please try this at home
 
-## Running unit tests
+As Hotel WiFis tend to be unreliable, I kindly ask you to install the required third-party packages at home or any place with a stable internet connection. On your command line, please run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+$ npm install -g @angular/cli
+```
 
-## Running end-to-end tests
+Next, navigate to a folder of your choice and execute:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+$ git clone https://github.com/thinktecture/angulardays-2018-spring-advanced-ng.git
+$ cd angulardays-2018-spring-advanced-ng
+$ npm install
+```
 
-## Further help
+Or, if you prefer SSH, use this checkout URL: `git@github.com:thinktecture/angulardays-2018-spring-advanced-ng.git`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+That’s all for now! See you on Tuesday. If you have any questions in the meantime, feel free to [drop me a Tweet](https://twitter.com/christianliebel).
