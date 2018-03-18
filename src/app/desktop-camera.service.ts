@@ -1,9 +1,8 @@
 import {Injectable} from '@angular/core';
-
-// TODO: Extend this class to inherit your abstract base camera service
+import {CameraService} from './camera.service';
 
 @Injectable()
-export class DesktopCameraService {
+export class DesktopCameraService extends CameraService {
 
   private getMediaDevices(): any {
     return ((window.navigator['mozGetUserMedia'] || window.navigator['webkitGetUserMedia']) ? {

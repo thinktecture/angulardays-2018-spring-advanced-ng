@@ -1,9 +1,8 @@
 import {Injectable} from '@angular/core';
-
-// TODO: Extend this class to inherit your abstract base camera service
+import {CameraService} from './camera.service';
 
 @Injectable()
-export class MobileCameraService {
+export class MobileCameraService extends CameraService {
 
   public getPicture(): Promise<string> {
     return new Promise((resolve, reject) => {

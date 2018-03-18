@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {CameraService} from '../camera.service';
 
 @Component({
   selector: 'app-picture',
@@ -9,11 +10,11 @@ export class PictureComponent {
 
   public source: string;
 
-  // TODO: Inject the abstract camera service here.
-  constructor() { }
+  constructor(private _cameraService: CameraService) { }
 
   public takePhoto(): void {
-    // TODO: Use the abstract camera service here and set the source
+    this._cameraService.getPicture()
+      .then(source => this.source = source);
   }
 
 }
