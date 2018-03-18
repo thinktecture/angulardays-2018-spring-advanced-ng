@@ -2,9 +2,9 @@
 
 [Angular Days 2018](https://angular-days.de/session/advanced-angular-praktische-real-world-projekterfahrungen/), 20. März 2018, 09:00–12:30 Uhr, Holiday Inn München-Unterhaching.
 
-[Christian Liebel](https://twitter.com/chris_liebel), Consultant, Thinktecture AG, Karlsruhe.
+[Christian Liebel](https://twitter.com/christianliebel), Consultant, Thinktecture AG, Karlsruhe.
 
-Due to the expected number of participants, we will not be able to have one-on-one mentoring. However, if you like, you can follow [these instructions](https://liebel.io/ng-ws).
+Due to the expected number of participants, we will not be able to have one-on-one mentoring. However, if you like, you can follow [these instructions](https://github.com/thinktecture/angulardays-2018-spring-advanced-ng/wiki).
 
 ## Setup
 
