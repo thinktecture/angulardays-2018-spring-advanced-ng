@@ -12,4 +12,7 @@ export const ROUTES: Routes = [{
 }, {
   path: 'starwars/:id',
   component: StarwarsComponent
+}, {
+  path: 'lazy',
+  loadChildren: 'app/lazy/lazy.module#LazyModule'
 }];
