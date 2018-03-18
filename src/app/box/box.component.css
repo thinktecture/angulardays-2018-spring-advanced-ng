@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.75);
+  cursor: all-scroll;
+}
+
+header {
+  background: linear-gradient(to top, #1e3c72 , #2a5298);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+section {
+  background-color: white;
+  flex: 1;
+  padding: 10px;
+}

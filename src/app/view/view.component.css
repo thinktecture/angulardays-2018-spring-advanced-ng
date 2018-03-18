@@ -1,0 +1,8 @@
+:host {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, #83a4d4 , #b6fbff);
+}

@@ -1,0 +1,4 @@
+<button (click)="addBox()">Add box</button>
+<button (click)="addBoxes(100)">Add 100 boxes</button>
+
+<app-box *ngFor="let box of boxes" [data]="box.data"></app-box>
