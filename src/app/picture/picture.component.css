@@ -1,0 +1,35 @@
+header {
+  background: #f8f8f8;
+  padding-top: 24px;
+  min-height: 64px;
+  border-bottom: 0.55px solid rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 0.4rem 0.2rem;
+  padding: 0 1em;
+  height: 2.8em;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #387ef5;
+  border: 0;
+}
+
+img {
+  max-width: 1000px;
+  width: 100%;
+  display: block;
+}

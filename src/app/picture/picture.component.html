@@ -1,0 +1,9 @@
+<header>
+  <h1>Foto</h1>
+</header>
+<section>
+  <button (click)="takePhoto()">
+    Bitte recht freundlich!
+  </button>
+  <img [src]="source" *ngIf="source">
+</section>
