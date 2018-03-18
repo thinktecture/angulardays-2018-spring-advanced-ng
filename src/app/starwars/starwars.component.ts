@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
+import {Observable} from 'rxjs/Observable';
+import {HttpClient} from '@angular/common/http';
+import {map, switchMap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-starwars',
@@ -8,13 +11,16 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class StarwarsComponent implements OnInit {
 
-  public person: any;
+  public person$: Observable<any>;
 
-  constructor(private _activatedRoute: ActivatedRoute) {
+  constructor(private _activatedRoute: ActivatedRoute, private _httpClient: HttpClient) {
   }
 
   ngOnInit() {
-    // TODO: Subscribe to the router’s change
+    this.person$ = this._activatedRoute.paramMap.pipe(
+      map(params => params.get('id')),
+      switchMap(id => this._httpClient.get(`https://swapi.co/api/people/${id}`))
+    );
   }
 
 }
